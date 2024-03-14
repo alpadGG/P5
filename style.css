@@ -26,6 +26,10 @@ body {
 .main{
     padding-top: 4rem;
 }
+img{
+    width: 205px;
+    height: 140px
+    }
 
 .main ul{
     display: flex;
