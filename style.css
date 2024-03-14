@@ -108,6 +108,7 @@ h2 p{
 
   
 .footer {
+    posision:absolute:
     width: 100%;
     background-color: #333;
     color: white;
