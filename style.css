@@ -25,6 +25,7 @@ body {
 .main{
     flex-direction: colum;
     padding-top: 4rem;
+    justify-content: space-between;
 }
 img{
     width: 205px;
