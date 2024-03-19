@@ -28,7 +28,8 @@ body {
 }
 img{
     width: 205px;
-    height: 140px
+    height: 140px;
+    align-items: center;
     }
 
 .main ul{
@@ -52,7 +53,7 @@ ul li a {
 }
 
 ul li a:hover {
-    transform: 1,2;
+    transform: 1.2;
     color: blue;
   }
 
@@ -67,6 +68,14 @@ div p{
 
 h2 p{
     margin-bottom: 10px;
+}
+.card{
+  position: relative;
+  border-radius: 16px;
+  width: 250px;
+  height: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Scroll-top{
