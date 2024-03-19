@@ -23,6 +23,7 @@ body {
 
 
 .main{
+    flex-direction: colum;
     padding-top: 4rem;
 }
 img{
