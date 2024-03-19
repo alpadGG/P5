@@ -117,11 +117,13 @@ h2 p{
 
   
 .footer {
-    position:absolute;
-    width: 100%;
+    position: absolute;
+    width: 100%; /* Set the width to 100% to span the entire width of the viewport */
     background-color: #333;
     color: white;
     text-align: center;
     padding-top: 1.3rem;
     bottom: 0;
-  }
+    height: 100px; /* Set the height to your desired value */
+}
+
