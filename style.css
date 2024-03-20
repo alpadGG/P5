@@ -88,8 +88,6 @@ h2 p{
     padding: 1rem;
     font-family: sans-serif;
     font-weight: bold;
-
-
 }
 
 
@@ -125,6 +123,7 @@ h2 p{
     text-align: center;
     padding-top: 100px; /* Anda bisa menyesuaikan padding atas sesuai kebutuhan */
     left: 0; /* Tambahkan ini untuk memastikan footer berada di sepanjang lebar halaman */
+    bottom: 0; 
 }
 
 
