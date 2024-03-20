@@ -32,9 +32,10 @@ body {
 
 }
 img{
+    display:flex;
     width: 205px;
     height: 140px;
-    align-items: center;
+    justify-content: center;
     }
 
 .main ul{
