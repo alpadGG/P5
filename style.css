@@ -118,13 +118,14 @@ h2 p{
 
   
 .footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
-    padding-top: 100px;
-    bottom: 0;
-  }
+    padding-top: 100px; /* Anda bisa menyesuaikan padding atas sesuai kebutuhan */
+    left: 0; /* Tambahkan ini untuk memastikan footer berada di sepanjang lebar halaman */
+}
+
 
 
