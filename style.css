@@ -2,127 +2,6 @@ body {
     flex-direction: column;
     margin: 0 auto;
     overflow-x: hidden;
-    position: relative;
-    background-color: #E3DAC9;
-    height: 2500px;
-  }
-
-.head{
-    display: flex;
-    width: 100%;
-    top: 0;
-}
-.head h1{
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    align-items: center;
-    font-size: 2.5rem;
-    margin-left: 25%;
-  }
-
-
-.main{
-    flex-direction: colum;
-    padding-top: 4rem;
-    justify-content: space-between;
-}
-img{
-    width: 205px;
-    height: 140px;
-    align-items: center;
-    }
-
-.main ul{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-align: center;  
-    font-size: 1rem;
-    align-items: start;
-     margin-bottom: 100px;
-  }
-
-  ul li {
- 
-  margin: 5px;
-} 
-
-ul li a {
- text-decoration: none;
-  border-radius: 10%;
-  color: black;
-}
-
-ul li a:hover {
-    transform: 1.2;
-    color: blue;
-  }
-
-div h2 {
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: underline;
-}
-
-div p{
-    font-family: sans-serif;
-}
-
-h2 p{
-    margin-bottom: 10px;
-}
-.card{
-  position: relative;
-  border-radius: 16px;
-  width: 250px;
-  height: 320px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 2),
-            0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.Scroll-top{
-    text-decoration: none;
-    border: 1px ;
-    border-radius: 15px;
-    background-color: aliceblue;
-    color: blue;
-    padding: 1rem;
-    font-family: sans-serif;
-    font-weight: bold;
-
-
-}
-
-
-.Scroll-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    z-index: 100;
-  
-    /* Gaya tombol */
-  
-    @keyframes scroll-to-top-animation {
-      from {
-        transform: translateY(100px);
-      }
-      to {
-        transform: translateY(0);
-      }
-    }
-  
-    .Scroll-top.active {
-      animation: scroll-to-top-animation 3s ease-in-out;
-    }
-  }
-
-  
-User
-body {
-    flex-direction: column;
-    margin: 0 auto;
-    overflow-x: hidden;
     height: 6000px;
     position: relative;
     background-color: #E3DAC9;
@@ -146,6 +25,7 @@ body {
 
 .main{
     padding-top: 4rem;
+    margin-botom: 100px;
 }
 img{
     width: 205px;
