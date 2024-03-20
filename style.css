@@ -23,8 +23,13 @@ body {
 
 
 .main{
-    padding-top: 4rem;
-    gap: 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 25px;
+
 }
 img{
     width: 205px;
