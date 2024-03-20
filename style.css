@@ -1,5 +1,4 @@
 body {
-    display:flex;
     flex-direction: column;
     margin: 0 auto;
     overflow-x: hidden;
@@ -25,7 +24,7 @@ body {
 
 .main{
     padding-top: 4rem;
-    margin-botom: 100px;
+    gap: 4rem;
 }
 img{
     width: 205px;
@@ -34,6 +33,7 @@ img{
     }
 
 .main ul{
+    gap: 3rem;
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -116,16 +116,11 @@ h2 p{
 
   
 .footer {
-    position: absolute;
-    gap:3rem;
+    position:absolute;
     width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
-    padding-top: 100px; /* Anda bisa menyesuaikan padding atas sesuai kebutuhan */
-    left: 0; /* Tambahkan ini untuk memastikan footer berada di sepanjang lebar halaman */
-    bottom: 0; 
-}
-
-
-
+    padding-top: 3rem;
+    bottom: 0;
+  }
